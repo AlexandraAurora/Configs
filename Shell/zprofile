@@ -26,6 +26,7 @@ alias gpush="git push"
 alias greb="git rebase"
 alias gres="git reset"
 alias glog="git log"
+alias grmt="git remote"
 
 alias compinst="composer install"
 alias compupd="composer update"
