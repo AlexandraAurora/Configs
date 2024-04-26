@@ -1,0 +1,12 @@
+[user]
+        name = Alexandra Aurora Göttlicher
+        email = toluene-lapdogs07@icloud.com
+        signingkey =
+[commit]
+        gpgsign = true
+[core]
+        editor = nano
+[init]
+        defaultBranch = main
+[credential]
+        helper = store
