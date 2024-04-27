@@ -1,0 +1,6 @@
+Host local
+	User root
+	HostName localhost
+	Port 2222
+	StrictHostKeyChecking no
+	UserKnownHostsFile=/dev/null
