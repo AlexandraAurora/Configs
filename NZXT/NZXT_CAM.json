@@ -1,0 +1,1117 @@
+{
+  "appVersion": "4.61.7",
+  "user": {
+    "miniModeSettings": {
+      "enableMiniMode": false,
+      "theme": "dark",
+      "themeColor": "FFFFFF",
+      "titleColor": "E8EBED",
+      "enableThemeColor": false,
+      "size": 100,
+      "opacity": 80,
+      "snapToEdge": false,
+      "alwaysOnTop": true,
+      "movable": true,
+      "panels": [
+        {
+          "id": "cpuTemp",
+          "enabled": true,
+          "unit": "°"
+        },
+        {
+          "id": "cpuLoad",
+          "enabled": false,
+          "unit": "%"
+        },
+        {
+          "id": "cpuClock",
+          "enabled": true,
+          "unit": "MHz"
+        },
+        {
+          "id": "cpuFan",
+          "enabled": false,
+          "unit": "RPM"
+        },
+        {
+          "id": "gpuTemp",
+          "enabled": true,
+          "unit": "°"
+        },
+        {
+          "id": "gpuLoad",
+          "enabled": true,
+          "unit": "%"
+        },
+        {
+          "id": "gpuClock",
+          "enabled": false,
+          "unit": "MHz"
+        },
+        {
+          "id": "gpuFan",
+          "enabled": false,
+          "unit": "RPM"
+        },
+        {
+          "id": "ramLoad",
+          "enabled": false,
+          "unit": "GB"
+        },
+        {
+          "id": "network",
+          "enabled": false,
+          "unit": "KB/s"
+        }
+      ],
+      "hotkey": {
+        "virtualKey": 77,
+        "modifiers": [
+          "control"
+        ]
+      },
+      "layout": "horizontal"
+    },
+    "settings": {
+      "closeMinimizeCAM": true,
+      "darkMode": true,
+      "locale": "en-US",
+      "panelsController": {
+        "panels": [
+          {
+            "id": "pcMonitoring",
+            "enabled": true
+          },
+          {
+            "id": "systemSpecs",
+            "enabled": true
+          },
+          {
+            "id": "lighting",
+            "enabled": true
+          },
+          {
+            "id": "cooling",
+            "enabled": true
+          },
+          {
+            "id": "power",
+            "enabled": true
+          },
+          {
+            "id": "keyboard",
+            "enabled": false
+          },
+          {
+            "id": "mouse",
+            "enabled": true
+          },
+          {
+            "id": "signal",
+            "enabled": false
+          },
+          {
+            "id": "monitor",
+            "enabled": false
+          },
+          {
+            "id": "audio",
+            "enabled": false
+          }
+        ]
+      },
+      "startupCAM": true,
+      "startCAMMinimized": true,
+      "miniModeOnStartup": false,
+      "temperature": "celsius"
+    },
+    "audioController": {
+      "deviceProfiles": []
+    },
+    "coolingController": {
+      "profiles": [
+        {
+          "id": "DEFAULT",
+          "originId": "Silent",
+          "name": "",
+          "channelSettings": []
+        },
+        {
+          "id": "Silent",
+          "originId": "Silent",
+          "name": "Silent",
+          "channelSettings": []
+        },
+        {
+          "id": "Performance",
+          "originId": "Performance",
+          "name": "Performance",
+          "channelSettings": []
+        },
+        {
+          "id": "Fixed",
+          "originId": "Fixed",
+          "name": "Fixed",
+          "channelSettings": []
+        }
+      ],
+      "activeProfileId": "DEFAULT",
+      "channelSettings": []
+    },
+    "lightingController": {
+      "profiles": [
+        {
+          "id": "DEFAULT",
+          "originId": "NZXT_WHITE",
+          "lastSelected": 0,
+          "name": "",
+          "globalBrightness": 1,
+          "channelSettings": [
+            {
+              "deviceUniqueId": "kraken_x3-3211327-1480742679-540227379",
+              "channelName": "channel 2",
+              "brightness": 1,
+              "mode": {
+                "speed": "slowest",
+                "direction": "forward",
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "SuperRainbow"
+              }
+            },
+            {
+              "deviceUniqueId": "kraken_x3-3211327-1480742679-540227379",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            },
+            {
+              "deviceUniqueId": "smartdevice2-2949189-1346524934-540357432",
+              "channelName": "channel 1",
+              "brightness": 0.3,
+              "mode": {
+                "ledRgbs": [
+                  "0F39C2"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            },
+            {
+              "deviceUniqueId": "n7_z590-302260247-2855634056-1619257988",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            },
+            {
+              "deviceUniqueId": "n7_z590-302260247-2855634056-1619257988",
+              "channelName": "channel 4",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            },
+            {
+              "deviceUniqueId": "kraken_x3-3211327-1480742679-540227379",
+              "channelName": "all",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            },
+            {
+              "deviceUniqueId": "smartdevice2-2949189-1346524934-540357432",
+              "channelName": "all",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            },
+            {
+              "deviceUniqueId": "n7_z590-302260247-2855634056-1619257988",
+              "channelName": "all",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            },
+            {
+              "deviceUniqueId": "KrakenX3F072-3211327-1480742679-540227379",
+              "channelName": "channel 2",
+              "brightness": 1,
+              "mode": {
+                "speed": "slowest",
+                "direction": "forward",
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "SuperRainbow"
+              }
+            },
+            {
+              "deviceUniqueId": "KrakenX3F072-3211327-1480742679-540227379",
+              "channelName": "channel 3",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            },
+            {
+              "deviceUniqueId": "KrakenX3F072-3211327-1480742679-540227379",
+              "channelName": "all",
+              "brightness": 1,
+              "mode": {
+                "ledRgbs": [
+                  "FFFFFF"
+                ],
+                "name": "LEDMode",
+                "modeGroup": "Preset",
+                "modeName": "Fixed"
+              }
+            }
+          ]
+        },
+        {
+          "id": "NZXT_WHITE",
+          "originId": "NZXT_WHITE",
+          "lastSelected": 0,
+          "name": "White",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_SPECTRUM_WAVE",
+          "originId": "NZXT_SPECTRUM_WAVE",
+          "lastSelected": 0,
+          "name": "Spectrum Wave",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_PURPLE",
+          "originId": "NZXT_PURPLE",
+          "lastSelected": 0,
+          "name": "NZXT Purple",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_RED_ALERT",
+          "originId": "NZXT_RED_ALERT",
+          "lastSelected": 0,
+          "name": "Red Alert",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_VAPORWAVE",
+          "originId": "NZXT_VAPORWAVE",
+          "lastSelected": 0,
+          "name": "Vaporwave",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_MERMAID",
+          "originId": "NZXT_MERMAID",
+          "lastSelected": 0,
+          "name": "Mermaid",
+          "globalBrightness": 1,
+          "channelSettings": []
+        },
+        {
+          "id": "NZXT_AUDIO_LEVEL",
+          "originId": "NZXT_AUDIO_LEVEL",
+          "lastSelected": 0,
+          "name": "Audio Level",
+          "globalBrightness": 1,
+          "channelSettings": []
+        }
+      ],
+      "activeProfileId": "DEFAULT",
+      "channelSettings": [
+        {
+          "deviceUniqueId": "kraken_x3-3211327-1480742679-540227379",
+          "channelName": "channel 2",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "kraken_x3-3211327-1480742679-540227379",
+          "channelName": "channel 3",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "smartdevice2-2949189-1346524934-540357432",
+          "channelName": "channel 1",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "n7_z590-302260247-2855634056-1619257988",
+          "channelName": "channel 3",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "Custom",
+          "isConfigured": true,
+          "productType": "Fan",
+          "ledCount": 24
+        },
+        {
+          "deviceUniqueId": "n7_z590-302260247-2855634056-1619257988",
+          "channelName": "channel 4",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "Custom",
+          "isConfigured": false,
+          "productType": null,
+          "ledCount": null
+        },
+        {
+          "deviceUniqueId": "kraken_x3-3211327-1480742679-540227379",
+          "channelName": "Kraken X3",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "smartdevice2-2949189-1346524934-540357432",
+          "channelName": "Smart Device 2",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "n7_z590-302260247-2855634056-1619257988",
+          "channelName": "N7 Z590",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "n7_z590-302260247-2855634056-1619257988",
+          "channelName": "channel 1",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        },
+        {
+          "deviceUniqueId": "n7_z590-302260247-2855634056-1619257988",
+          "channelName": "channel 2",
+          "nickname": "",
+          "rotation": 0,
+          "enabled": true,
+          "kind": "NZXT"
+        }
+      ]
+    },
+    "masterProfileController": {
+      "profiles": [
+        {
+          "id": "DEFAULT",
+          "name": "Default",
+          "condition": {
+            "type": "none"
+          },
+          "lightingProfileId": "DEFAULT",
+          "coolingProfileId": "DEFAULT",
+          "mouseProfileIdMap": {
+            "mouse-F5001B8561044CDBAAAD95291101B019": {
+              "profileId": "c579ba93-0b70-4644-8acb-c1cce159b95c",
+              "deviceType": "MouseV1"
+            }
+          },
+          "keyboardProfileIdMap": {
+            "keyboard-601B7B90AF8818E70902402500000000": {
+              "profileId": "fd61b957-5779-4eb1-8a2e-bc94b5d7419e",
+              "deviceType": "KeyboardV1"
+            }
+          },
+          "monitorProfileIdMap": {},
+          "audioProfilesIdMap": {}
+        }
+      ],
+      "activeProfileId": "DEFAULT"
+    },
+    "keyboardController": {
+      "deviceProfiles": [
+        {
+          "deviceUniqueId": "keyboard-601B7B90AF8818E70902402500000000",
+          "keyboardNames": [],
+          "newDevice": false,
+          "profiles": [
+            {
+              "id": "adcc83fc-88de-4074-be3d-04fc9873ad46",
+              "storedSlot": 3,
+              "lastSelected": 1704469215060,
+              "name": "Onboard Profile 4",
+              "disableFNKey": false,
+              "disableWindowsKey": false,
+              "macros": [],
+              "remaps": [],
+              "zones": [
+                {
+                  "id": "54d62ebd-8b73-41ad-8ed7-ca044623cf5f",
+                  "effect": {
+                    "id": "RippleReactive",
+                    "effectName": "Ripple",
+                    "effectGroup": "Reactive",
+                    "settings": {
+                      "gradient": [],
+                      "speed": 75,
+                      "tail": 1,
+                      "colorType": "Random",
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "keys": [
+                    "(ALL)"
+                  ]
+                }
+              ],
+              "afkTimeout": {
+                "disabled": false,
+                "duration": 15
+              },
+              "brightness": 100,
+              "actuationLevel": "Level0",
+              "pollingRate": "Hz1000",
+              "deviceId": "keyboard-601B7B90AF8818E70902402500000000"
+            },
+            {
+              "id": "06e6dafb-6b18-4a74-8392-f8d0a885206f",
+              "storedSlot": 2,
+              "lastSelected": 1704469215059,
+              "name": "Onboard Profile 3",
+              "disableFNKey": false,
+              "disableWindowsKey": false,
+              "macros": [],
+              "remaps": [],
+              "zones": [
+                {
+                  "id": "723b7559-9da2-4743-a154-f3852b9af513",
+                  "effect": {
+                    "id": "ShiftBase",
+                    "effectName": "Shift",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "gradient": [
+                        {
+                          "color": "800080",
+                          "id": "4dd71d81-362c-4ea5-8eee-bb697d60953c",
+                          "position": 0
+                        },
+                        {
+                          "color": "0000FF",
+                          "id": "cb87a251-8b37-49cb-b518-3d7def13e5ff",
+                          "position": 20
+                        },
+                        {
+                          "color": "00FFFF",
+                          "id": "b76741dc-9a8d-4db0-aa37-1fe4e740a217",
+                          "position": 40
+                        },
+                        {
+                          "color": "FFFF00",
+                          "id": "2c26add8-3d1b-4884-9e9d-1a79c666b2bf",
+                          "position": 60
+                        },
+                        {
+                          "color": "FF0000",
+                          "id": "52c06e44-b3fe-437d-9ad5-41e2953f4b89",
+                          "position": 80
+                        }
+                      ],
+                      "speed": 20,
+                      "colorType": "Gradient",
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "keys": [
+                    "(ALL)"
+                  ]
+                }
+              ],
+              "afkTimeout": {
+                "disabled": false,
+                "duration": 15
+              },
+              "brightness": 100,
+              "actuationLevel": "Level0",
+              "pollingRate": "Hz1000",
+              "deviceId": "keyboard-601B7B90AF8818E70902402500000000"
+            },
+            {
+              "id": "c9ec91d2-d6fc-4169-8dfe-8ac355f6145c",
+              "storedSlot": 1,
+              "lastSelected": 1704469215058,
+              "name": "Onboard Profile 2",
+              "disableFNKey": false,
+              "disableWindowsKey": false,
+              "macros": [],
+              "remaps": [],
+              "zones": [
+                {
+                  "id": "419984ae-0d19-4c9d-948d-6b0b7c507ab0",
+                  "effect": {
+                    "id": "WaveBase",
+                    "effectName": "Wave",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "gradient": [],
+                      "direction": "Left",
+                      "speed": 10,
+                      "tail": 1,
+                      "colorType": "Rainbow",
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "keys": [
+                    "(ALL)"
+                  ]
+                }
+              ],
+              "afkTimeout": {
+                "disabled": false,
+                "duration": 15
+              },
+              "brightness": 100,
+              "actuationLevel": "Level0",
+              "pollingRate": "Hz1000",
+              "deviceId": "keyboard-601B7B90AF8818E70902402500000000"
+            },
+            {
+              "id": "fd61b957-5779-4eb1-8a2e-bc94b5d7419e",
+              "storedSlot": 0,
+              "lastSelected": 1704469215057,
+              "name": "Onboard Profile 1",
+              "disableFNKey": false,
+              "disableWindowsKey": false,
+              "macros": [],
+              "remaps": [],
+              "zones": [
+                {
+                  "id": "42a2e372-bc82-4f54-9013-81eb7d34447e",
+                  "effect": {
+                    "id": "GradientBase",
+                    "effectName": "Gradient",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "gradient": [
+                        {
+                          "color": "F100FF",
+                          "id": "360ed60a-b5e6-444b-b99a-3a2d2f78f36e",
+                          "position": 0
+                        },
+                        {
+                          "color": "FFAE98",
+                          "id": "3fb062f3-2002-43d7-a3cf-1872819c1a12",
+                          "position": 100
+                        }
+                      ],
+                      "direction": "Right",
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "keys": [
+                    "(ALL)"
+                  ]
+                }
+              ],
+              "afkTimeout": {
+                "disabled": false,
+                "duration": 15
+              },
+              "brightness": 1,
+              "actuationLevel": "Level0",
+              "pollingRate": "Hz1000",
+              "deviceId": "keyboard-601B7B90AF8818E70902402500000000"
+            },
+            {
+              "id": "DEFAULT",
+              "originId": "DEFAULT",
+              "lastSelected": 1704469215044,
+              "name": "Software Profile 1",
+              "imageUrl": "C:\\Program Files\\NZXT CAM\\resources\\static\\images\\theme_packs\\NZXT_VAPORWAVE.jpg",
+              "disableFNKey": false,
+              "disableWindowsKey": false,
+              "macros": [],
+              "remaps": [],
+              "zones": [
+                {
+                  "id": "d42b779b-26a0-400a-a00c-313c67ab993e",
+                  "effect": {
+                    "id": "SolidBase",
+                    "effectName": "Solid",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "hex": "51007A",
+                      "gradient": [],
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "keys": [
+                    "(ALL)"
+                  ]
+                }
+              ],
+              "afkTimeout": {
+                "disabled": false,
+                "duration": 15
+              },
+              "brightness": 0.5,
+              "actuationLevel": "Level0",
+              "pollingRate": "Hz1000"
+            }
+          ],
+          "activeProfileId": "fd61b957-5779-4eb1-8a2e-bc94b5d7419e",
+          "keyboardRegion": "US"
+        }
+      ]
+    },
+    "mouseController": {
+      "deviceProfiles": [
+        {
+          "deviceUniqueId": "mouse-F5001B8561044CDBAAAD95291101B019",
+          "mouseNames": [
+            {
+              "deviceUniqueId": "mouse-F5001B8561044CDBAAAD95291101B019",
+              "nickname": ""
+            }
+          ],
+          "profiles": [
+            {
+              "id": "ecb50505-bf8f-45ff-ae4b-40925afcbdbe",
+              "storedSlot": 3,
+              "lastSelected": 1697044266259,
+              "name": "Onboard Profile 4",
+              "pollingRate": "Hz1000",
+              "liftOffDistance": "Mm2",
+              "cpiIndices": [
+                {
+                  "id": "12f8668a-d558-4001-92de-46e6809adbb2",
+                  "value": 400,
+                  "color": "FF0000"
+                },
+                {
+                  "id": "4caf7bbe-68fa-48c8-af80-f7873bb22bca",
+                  "value": 900,
+                  "color": "FF00FF"
+                },
+                {
+                  "id": "8d1591db-3410-45b0-89f4-7580b30e6364",
+                  "value": 1800,
+                  "color": "FFFFFF"
+                },
+                {
+                  "id": "c1c3f790-8c8a-438c-a09d-dc815e93634b",
+                  "value": 3600,
+                  "color": "0000FF"
+                }
+              ],
+              "activeCpiIndexId": "8d1591db-3410-45b0-89f4-7580b30e6364",
+              "baseZones": [
+                {
+                  "id": "b94c1c30-4aab-433d-a2f7-ea8ab5bf2fcf",
+                  "effect": {
+                    "id": "PulseBase",
+                    "effectName": "Pulse",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "gradient": [],
+                      "speed": 80,
+                      "colorType": "Random",
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "leds": [
+                    "TopLeft",
+                    "MiddleLeft",
+                    "BottomLeft",
+                    "BottomRight",
+                    "MiddleRight",
+                    "TopRight"
+                  ]
+                }
+              ],
+              "reactiveZones": [],
+              "macros": [],
+              "remaps": [],
+              "enableCpiLightingIndicator": true,
+              "brightness": 0.5,
+              "deviceId": "mouse-F5001B8561044CDBAAAD95291101B019"
+            },
+            {
+              "id": "8b0f094b-efb7-4256-9d7f-2a6833701a1d",
+              "storedSlot": 2,
+              "lastSelected": 1697044266255,
+              "name": "Onboard Profile 3",
+              "pollingRate": "Hz1000",
+              "liftOffDistance": "Mm2",
+              "cpiIndices": [
+                {
+                  "id": "b9e4ab12-811a-4d65-8ea2-4f84213be0ca",
+                  "value": 400,
+                  "color": "FF0000"
+                },
+                {
+                  "id": "acdeaf79-9a55-4bd9-a9dc-1e296f35b1f5",
+                  "value": 900,
+                  "color": "FF00FF"
+                },
+                {
+                  "id": "db96c71e-628f-4787-b87c-862c64dcc5f4",
+                  "value": 1800,
+                  "color": "FFFFFF"
+                },
+                {
+                  "id": "c5acb145-f288-4d27-8b51-a1399749b91f",
+                  "value": 3600,
+                  "color": "0000FF"
+                }
+              ],
+              "activeCpiIndexId": "db96c71e-628f-4787-b87c-862c64dcc5f4",
+              "baseZones": [
+                {
+                  "id": "f78176b0-89d6-4905-b61e-153cec57b329",
+                  "effect": {
+                    "id": "WaveBase",
+                    "effectName": "Wave",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "gradient": [],
+                      "speed": 80,
+                      "tail": 1,
+                      "direction": "CounterClockwise",
+                      "colorType": "Rainbow",
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "leds": [
+                    "TopLeft",
+                    "MiddleLeft",
+                    "BottomLeft",
+                    "BottomRight",
+                    "MiddleRight",
+                    "TopRight"
+                  ]
+                }
+              ],
+              "reactiveZones": [],
+              "macros": [],
+              "remaps": [],
+              "enableCpiLightingIndicator": true,
+              "brightness": 0.5,
+              "deviceId": "mouse-F5001B8561044CDBAAAD95291101B019"
+            },
+            {
+              "id": "5c4971e5-dba1-4c53-9166-a2bf3d8eec0e",
+              "storedSlot": 1,
+              "lastSelected": 1697044266250,
+              "name": "Onboard Profile 2",
+              "pollingRate": "Hz1000",
+              "liftOffDistance": "Mm2",
+              "cpiIndices": [
+                {
+                  "id": "9d8c003d-1542-4690-8f4d-ad9f94e35d5f",
+                  "value": 400,
+                  "color": "FF0000"
+                },
+                {
+                  "id": "2aa4fb1c-6003-4454-9bb9-8e25faafec1b",
+                  "value": 900,
+                  "color": "FF00FF"
+                },
+                {
+                  "id": "8db903ce-22c5-4a36-a34b-a10b822e1f96",
+                  "value": 1800,
+                  "color": "FFFFFF"
+                },
+                {
+                  "id": "e35bb673-58ef-4514-b49e-5662dd4050ac",
+                  "value": 3600,
+                  "color": "0000FF"
+                }
+              ],
+              "activeCpiIndexId": "8db903ce-22c5-4a36-a34b-a10b822e1f96",
+              "baseZones": [
+                {
+                  "id": "a0fc8eb6-a43e-4fde-9a14-38e9fda81671",
+                  "effect": {
+                    "id": "SolidBase",
+                    "effectName": "Solid",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "hex": "51007A",
+                      "gradient": [],
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "leds": [
+                    "TopLeft",
+                    "MiddleLeft",
+                    "BottomLeft",
+                    "BottomRight",
+                    "MiddleRight",
+                    "TopRight"
+                  ]
+                }
+              ],
+              "reactiveZones": [],
+              "macros": [],
+              "remaps": [],
+              "enableCpiLightingIndicator": true,
+              "brightness": 0.5,
+              "deviceId": "mouse-F5001B8561044CDBAAAD95291101B019"
+            },
+            {
+              "id": "c579ba93-0b70-4644-8acb-c1cce159b95c",
+              "storedSlot": 0,
+              "lastSelected": 1697044266247,
+              "name": "Onboard Profile 1",
+              "pollingRate": "Hz1000",
+              "liftOffDistance": "Mm2",
+              "cpiIndices": [
+                {
+                  "id": "1a89eafe-5413-4d81-b181-4ea788870734",
+                  "value": 400,
+                  "color": "FF0000"
+                },
+                {
+                  "id": "68a82f2d-285f-4c82-82a0-a7d30bf8b1c7",
+                  "value": 900,
+                  "color": "FF00FF"
+                },
+                {
+                  "id": "b1a49382-d0bc-45d1-8922-3d17a47d8f67",
+                  "value": 1800,
+                  "color": "FFFFFF"
+                },
+                {
+                  "id": "f17ccb5e-afb6-4e0f-8719-e8011141e895",
+                  "value": 3600,
+                  "color": "0000FF"
+                }
+              ],
+              "activeCpiIndexId": "b1a49382-d0bc-45d1-8922-3d17a47d8f67",
+              "baseZones": [
+                {
+                  "id": "04a1c1f2-8d1d-4639-b7b6-46aeae1c08da",
+                  "effect": {
+                    "id": "SolidBase",
+                    "effectName": "Solid",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "hex": "FFFFFF",
+                      "gradient": [],
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "leds": [
+                    "TopLeft",
+                    "MiddleLeft",
+                    "BottomLeft",
+                    "BottomRight",
+                    "MiddleRight",
+                    "TopRight"
+                  ]
+                }
+              ],
+              "reactiveZones": [],
+              "macros": [],
+              "remaps": [],
+              "enableCpiLightingIndicator": true,
+              "brightness": 1,
+              "deviceId": "mouse-F5001B8561044CDBAAAD95291101B019"
+            },
+            {
+              "id": "DEFAULT",
+              "originId": "DEFAULT",
+              "lastSelected": 1697044265784,
+              "name": "",
+              "imageUrl": "C:\\Program Files\\NZXT CAM\\resources\\static\\images\\theme_packs\\NZXT_VAPORWAVE.jpg",
+              "pollingRate": "Hz1000",
+              "liftOffDistance": "Mm2",
+              "cpiIndices": [
+                {
+                  "id": "default-cpi-index-id-0",
+                  "value": 400,
+                  "color": "#FF0000"
+                },
+                {
+                  "id": "default-cpi-index-id-1",
+                  "value": 900,
+                  "color": "#FFFF00"
+                },
+                {
+                  "id": "default-cpi-index-id-2",
+                  "value": 1800,
+                  "color": "#FFFFFF"
+                },
+                {
+                  "id": "default-cpi-index-id-3",
+                  "value": 3600,
+                  "color": "#0000FF"
+                }
+              ],
+              "activeCpiIndexId": "default-cpi-index-id-2",
+              "baseZones": [
+                {
+                  "id": "1f3eb631-dd4e-4bc0-98cf-88a2201ab8bf",
+                  "effect": {
+                    "id": "SolidBase",
+                    "effectName": "Solid",
+                    "effectGroup": "Base",
+                    "settings": {
+                      "hex": "51007A",
+                      "gradient": [],
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "leds": [
+                    "(ALL)"
+                  ]
+                }
+              ],
+              "reactiveZones": [
+                {
+                  "id": "9af104a3-0632-4f8c-b848-9548032d4e98",
+                  "effect": {
+                    "id": "RippleReactive",
+                    "effectName": "Ripple",
+                    "effectGroup": "Reactive",
+                    "settings": {
+                      "hex": "FFFFFF",
+                      "gradient": [],
+                      "speed": 70,
+                      "tail": 3,
+                      "colorType": "ColorPicker",
+                      "colorStack": [],
+                      "audioColors": []
+                    }
+                  },
+                  "buttons": [
+                    "(ALL)"
+                  ]
+                }
+              ],
+              "macros": [],
+              "remaps": [],
+              "enableCpiLightingIndicator": true,
+              "brightness": 0.5
+            }
+          ],
+          "activeProfileId": "c579ba93-0b70-4644-8acb-c1cce159b95c"
+        }
+      ]
+    },
+    "monitorController": {
+      "profiles": [],
+      "activeProfileIdByDevice": {},
+      "monitorNames": [],
+      "monitorGlobalSettings": []
+    },
+    "captureController": {
+      "captureNames": []
+    },
+    "displayedGPUId": {
+      "id": "PCI\\VEN_10DE&DEV_2484&SUBSYS_24841ED3&REV_A1\\4&29ac789d&0&0008"
+    },
+    "powerConfiguration": {
+      "ocpSettings": {}
+    },
+    "customGames": []
+  },
+  "local": {
+    "appUpdater": {
+      "lastReadPatchNotesVersion": "4.61.7"
+    },
+    "colorPicker": {
+      "colors": [
+        "FFFFFF",
+        "A900FF",
+        "122441",
+        "FF64FF",
+        "0F39C2"
+      ],
+      "gradients": []
+    },
+    "currentUser": {
+      "mode": "guest"
+    },
+    "surveys": {
+      "localProbability": 0.6793692699445733,
+      "lastSeen": 0,
+      "seenSurveys": {}
+    },
+    "promotions": {},
+    "knownGPUs": {
+      "ids": []
+    },
+    "router": {
+      "pathname": "/settings/general"
+    }
+  }
+}
