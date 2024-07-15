@@ -1,16 +1,16 @@
 export GPG_TTY=$(tty)
 
-alias brewupd="brew update"
-alias brewupg="brew upgrade"
-alias brewinst="brew install"
-alias brewuninst="brew uninstall"
-alias brewall="brew update && brew upgrade"
+alias bupd="brew update"
+alias bupg="brew upgrade"
+alias bin="brew install"
+alias brm="brew uninstall"
+alias ball="brew update && brew upgrade"
 
-alias aptupd="sudo apt update"
-alias aptupg="sudo apt full-upgrade"
-alias aptinst="sudo apt install"
-alias aptauto="sudo apt autoremove"
-alias aptall="sudo apt update && sudo apt full-upgrade && sudo apt autoremove"
+alias aupd="sudo apt update"
+alias aupg="sudo apt full-upgrade"
+alias ain="sudo apt install"
+alias arm="sudo apt autoremove"
+alias aall="sudo apt update && sudo apt full-upgrade && sudo apt autoremove"
 
 alias gini="git init"
 alias gadd="git add"
@@ -25,13 +25,14 @@ alias gsubpull="git submodule foreach git pull origin main"
 alias gpush="git push"
 alias greb="git rebase"
 alias gres="git reset"
+alias grest="git restore"
 alias glog="git log"
 alias grmt="git remote"
 
-alias compinst="composer install"
-alias compupd="composer update"
-alias compreq="composer require"
-alias comprem="composer remove"
+alias cin="composer install"
+alias cupd="composer update"
+alias crq="composer require"
+alias crm="composer remove"
 
 export THEOS=~/theos
 alias theos=~/theos/bin/nic.pl
